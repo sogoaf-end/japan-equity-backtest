@@ -1,0 +1,26 @@
+{
+  "allowedTools": [
+    "mcp__edinetdb__search_companies",
+    "mcp__edinetdb__get_financials",
+    "mcp__edinetdb__get_earnings",
+    "mcp__edinetdb__get_company",
+    "mcp__edinetdb__get_analysis",
+    "mcp__edinetdb__screen_companies",
+    "mcp__edinetdb__search_companies_batch",
+    "mcp__edinetdb__get_text_blocks",
+    "Bash",
+    "Read",
+    "Write",
+    "Edit",
+    "MultiEdit"
+  ],
+  "mcpServers": {
+    "edinetdb": {
+      "type": "http",
+      "url": "https://edinetdb.jp/mcp",
+      "headers": {
+        "Authorization": "Bearer edb_90a5dac93b7dbf4e963a0bc13482d6cd"
+      }
+    }
+  }
+}

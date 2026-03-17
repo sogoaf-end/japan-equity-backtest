@@ -1,0 +1,15 @@
+{
+  "name": "backtest-foundation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "jquants:ping": "node src/cli/index.js jquants ping",
+    "jquants:quotes": "node src/cli/index.js jquants quotes --code 7203 --from 2024-01-01 --to 2024-03-31",
+    "backtest:sma": "node src/cli/index.js backtest sma --code 7203 --from 2024-01-01 --to 2024-12-30",
+    "mcp:tools": "node src/cli/index.js mcp tools",
+    "mcp:fetch-bars": "node src/cli/index.js mcp fetch-bars --code 7203 --from 2024-01-01 --to 2024-01-31",
+    "backtest:op-margin": "node src/cli/run-opMarginImprovement.js"
+  }
+}
